@@ -1,74 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,400&display=swap');
-
-:root {
-    --roxo-claro: #C4B8D0;
-    --roxo-medio: #957BB8;
-    --roxo-medio02: #594A8C;
-    --roxo: #3E2161;
-    --roxo-escuro: #3A1F73;
-    --verde-claro: #8AC7CA;
-    --verde-escuro:#1A9197;
-    --cinza-claro: #D9D9D9;
-    --cinza: #5A6973;
-
-    --fonte-destaque: 'Julius Sans One';
-    --fonte-titulo: 'Josefin Sans';
-    --fonte-padrao: 'Raleway';
-    --fonte-links: 'Roboto Flex';
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    background-color: var(--cinza);
-    font-family: var(--fonte-padrao);
-    text-align: justify;
-}
-
-header {
-	min-height: 250px;
-	background-image:url(imagens/header_zaboenglish.png);
-    background-position: center;
-    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.333);
-}
-
-nav {
-    background-color: #8ac7ca9f;
-    font-family: var(--fonte-links);
-    font-size: small;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 2px;
-    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.351);
-}
-nav > a {
-    color: var(--roxo-escuro);
-    text-decoration: none;
-    border-radius: 3px;
-    margin-right: 20px;
-    margin-left: 10px;
-    padding: 3px 8px 3px 8px;
-    transition-duration: 0.5s;
-}
-nav > a:hover {
-    background-color: #11535785;
-    color: var(--verde-claro);
-}
 
 main {
-    background-color: white;
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.336);
-    min-width: 320px;
+    background-image: url(imagens/danizaboenco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: justify;
     max-width: 900px;
-    padding: 20px;
-    margin: auto;
-    border-radius: 0px 0px 8px 8px;
+    min-width: 320px;
+    border-radius: 10px;;
+    padding: 70px;
 }
+
+h1 > a {
+    text-decoration: none;
+    color: var(--roxo);
+}
+
+h3 {
+    font-family: var(--fonte-corpo);
+    color: var(--roxo);
+    font-size: 2rem;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.192);
+    max-width: 500px;
+    min-width: 320px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+main > p {
+    font-family: var(--fonte-corpo);
+    line-height: 1.5rem;
+    max-width: 500px;
+    min-width: 320px;
+    padding-right: 100px;
+    margin: auto;
+}
+
+p > a {
+    color: var(--verde-escuro);
+    text-decoration: none;
+}
+
+main > p > a:hover {
+    font-weight: bold;
+}
+

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=IM+Fell+English+SC&family=League+Spartan:wght@100;200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&family=Smooch+Sans:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --roxo-claro: #C4B8D0;
+    --roxo-medio: #957BB8;
+    --roxo-medio02: #594A8C;
+    --roxo: #3E2161;
+    --roxo-escuro: #3A1F73;
+    --verde-claro: #8AC7CA;
+    --verde-escuro:#1A9197;
+    --cinza-claro: #D9D9D9;
+    --cinza: #5A6973;
+
+
+    --fonte-zaboenglish: 'IM Fell English SC';
+    --fonte-destaque: 'Bad Script';
+    --fonte-h2: 'Smooch Sans';
+    --fonte-h3: 'League Spartan';
+    --fonte-corpo: 'Raleway';
+    --fonte-links: 'Roboto Flex';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cinza);
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+}
+
+header {
+    background-image: url(imagens/header_zaboenglish.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.351);
+    padding: 50px 0px 3px;
+    margin-bottom: 10px;
+}
+
+header > h1 {
+    color: var(--roxo);
+    font-family: var(--fonte-zaboenglish);
+    font-size: 3rem;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.301);
+}
+
+header > p {
+    color: var(--roxo-claro);
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.384);
+    padding-bottom: 30px;
+}
+
+nav {
+    font-family: var(--fonte-links);
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+nav > a {
+    color: var(--roxo-escuro);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding: 5px 10px 5px 10px;
+    transition-duration: 0.5s;
+}
+nav > a:hover {
+    background-color: #594a8c5d;
+    color: white;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.938);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.336);
+    min-width: 320px;
+    max-width: 900px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 0px 8px 8px;
+}
+
+h1 {
+    color: var(--roxo-medio);
+    font-family: var(--fonte-destaque);
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.24);
+    padding-top: 20px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #3e216117, #594a8c1a, #957bb817, #c4b8d00f);
+    color: var(--roxo);
+    font-family: var(--fonte-h2);
+    text-indent: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.195);
+    padding: 3px 0px;
+    border-radius: 3px;
+
+}
+
+footer {
+    background-color: #957bb881;
+    color: var(--roxo-escuro);
+    font-family: var(--fonte-links);
+    font-size: small;
+    text-align: center;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 3px;   
+}
