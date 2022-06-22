@@ -45,3 +45,38 @@ main > p > a:hover {
     font-weight: bold;
 }
 
+.fa {
+    padding: 10px;
+    font-size: 1rem;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.189);
+  }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram {
+    background: #BF2C83;
+    color: white;
+}
+
+div {
+    padding-top: 50px;
+    text-align: center;
+}
+
+div > p {
+    font-family: var(--fonte-corpo);
+    font-size: 0.7rem;
+    padding-bottom: 10px;
+}
+
+
