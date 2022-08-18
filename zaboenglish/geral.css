@@ -66,15 +66,16 @@ nav {
 nav > a {
     color: var(--roxo-escuro);
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 3px;
     margin-right: 20px;
     margin-left: 10px;
     padding: 5px 10px 5px 10px;
     transition-duration: 0.5s;
 }
 nav > a:hover {
-    background-color: #594a8c5d;
-    color: white;
+    background-color: var(--roxo-escuro);
+    opacity: 0.5;
+    color: #ffffff;
 }
 
 main {
