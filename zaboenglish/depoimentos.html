@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depoimentos</title>
+    <link rel="stylesheet" href="geral.css">
+    <link rel="stylesheet" href="depoimentos.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">ZaboEnglish</a></h1>
+        <p>Ensino de inglês personalizado</p>
+        <nav>
+            <a href="quemsoueu.html" target="_blank">Quem sou eu</a>
+            <a href="metodologia.html" target="_blank">Metodologia</a>
+            <a href="depoimentos.html" target="_blank">Depoimentos</a>
+            <a href="contato.html" target="_blank">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <h3>Já foi aluno?</h3>
+            <p>Descreva sua experiência! Seu feedback é muito importante.</p>
+            <br>
+            <p><strong>*página em construção: formulário inativado.</strong></p>
+        </div>
+        <form id="depoimento">
+            <input type="text" class="form-estilo" id="nome" placeholder=" Digite seu nome completo">
+            <select name="linguas" class="form-estilo" id="selecionarLingua">
+                <option>Selecione a língua que você aprendeu</option>
+                <option value="alemao">Alemão</option>
+                <option value="ingles">Inglês</option>
+                <option value="ambas">Alemão e inglês</option>
+            </select>
+            <select name="opcao" class="form-estilo" id="SimNao">
+                <option>Recomendaria o trabalho?</option>
+                <option value="sim">Sim!</option>
+                <option value="nao">Não</option>
+            </select>
+            <input type="text" class="form-estilo" id="comentario" placeholder=" Faça seu comentário!"> 
+            <br>
+            <div id="estiloBotao"><button onclick="submitForm()" id="botao">Enviar!</button></div>
+        </form>
+    </main>
+    <footer>
+        <p>Site criado por <a href="https://www.linkedin.com/in/adriane-fagundes-a94445b4/" target="_blank">Adriane Fagundes</a></p>
+    </footer>
+<script src="depoimentos.js"></script>
+</body>
+</html>

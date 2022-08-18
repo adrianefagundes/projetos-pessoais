@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=IM+Fell+English+SC&family=League+Spartan:wght@100;200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&family=Smooch+Sans:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --roxo-claro: #C4B8D0;
+    --roxo-medio: #957BB8;
+    --roxo-medio02: #594A8C;
+    --roxo: #3E2161;
+    --roxo-escuro: #3A1F73;
+    --verde-claro: #8AC7CA;
+    --verde-escuro:#1A9197;
+    --cinza-claro: #D9D9D9;
+    --cinza: #5A6973;
+
+
+    --fonte-zaboenglish: 'IM Fell English SC';
+    --fonte-destaque: 'Bad Script';
+    --fonte-h2: 'Smooch Sans';
+    --fonte-h3: 'League Spartan';
+    --fonte-corpo: 'Raleway';
+    --fonte-links: 'Roboto Flex';
+}
+
+.banner {
+    background-image: linear-gradient(to right, #3e216117, #594a8c1a, #957bb817, #c4b8d00f);
+    padding: 10px;
+    text-align: center;
+    font-family: 'League Spartan', tahoma, sans-serif;
+}
+
+div > h3 {
+    font-size: 1.8em;
+    padding-bottom: 10px;
+    color: var(--roxo);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.205);
+}
+
+form {
+    font-family: 'League Spartan', Tahoma, sans-serif;
+    margin-top: 30px;
+}
+.form-estilo {
+    background: none;
+    font-family: 'League Spartan', Tahoma, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #888;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0;
+    padding: 10px 0px;
+}
+
+#comentario {
+    height: 15em;
+}
+
+ button {
+    margin-top: 15px;
+    width: 5em;
+ }
+#estiloBotao {
+    margin: 0 auto;
+    text-align: right;
+    width: 100%;
+}
+
