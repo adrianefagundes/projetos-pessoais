@@ -21,6 +21,7 @@
 
 }
 
+
 h2 {
     margin: 1.5rem;
     text-align: center;
@@ -59,6 +60,7 @@ main {
 
 .filmes {
     width: 300px;
+    height: 500px;
     margin: 1rem;
     border-radius: 3px;
     box-shadow: 0.2px, 4px, 5px rgba(0, 0, 0, 0.1);
@@ -74,11 +76,13 @@ main {
 .info-filme {
     color: #fff;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 0.5rem;
 }
 .info-filme h3 {
     margin-top: 0;
+    font-family: var(--FonteNav);
 }
 .info-filme span {
     background-color: #1F2322;
@@ -86,14 +90,13 @@ main {
     border-radius: 3px;
     font-weight: bold;
 }
-
 .info-filme span.verde {
     color: #1f8b2e;
 }
-.info-filme span.verde {
+.info-filme span.laranja {
     color: #b66420;
 }
-.info-filme span.verde {
+.info-filme span.vermelho {
     color: #8a0909;
 }
 
@@ -102,7 +105,7 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.808);
     padding: 1rem;
     max-height: 100%;
     transform: translateY(101%);
@@ -111,5 +114,6 @@ main {
 
 .filmes:hover .resumo {
     transform: translateY(0);
+    font-family: var(--FonteTexto02);
 }
 
