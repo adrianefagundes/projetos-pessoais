@@ -40,7 +40,7 @@ header {
     background-position: right center;
     background-size: cover;
     padding: 50px 0px 3px;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 header > p {
@@ -48,6 +48,7 @@ header > p {
     font-size: large;
     text-align: center;
     color: white;
+    margin-bottom: 2rem;
 }
 
 h1 {
@@ -60,14 +61,16 @@ h1 {
 nav {
     font-family: 'Koulen';
     display: flex;
+    justify-content: center;
 }
 nav > p {
-    padding-left: 40px;
+    padding-left: 50px;
 }
 
 nav a {
     text-decoration: none;
-    color: var(--Cor03-azulclaro);
+    color: rgba(255, 255, 255, 0.719);
+    
 }
 nav a:hover {
     background-color: #889a9a99;
@@ -75,4 +78,20 @@ nav a:hover {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.192);
     border-radius: 5px;
     padding: 0px 8px 0px 8px;
+}
+
+footer {
+    margin-top: 10rem;
+    padding: 3rem;
+    background-color: #1F2322;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #476170;
+    font-family: var(--FonteTexto02);
+    font-size: 1.2rem;
+}
+.footer img {
+    width: 100px;
 }
