@@ -20,42 +20,15 @@
         </nav>
     </header>
     <h2>Que filme você assisitiu hoje?</h2>
-    <div class="buscarFilme">
-        <input type="text" class="busca" id="busca" placeholder="Digite o nome do filme"> 
+    <div class="buscar-filme">
+        <form id="form"> 
+            <input type="text" class="busca" id="busca" placeholder="Digite o nome do filme" />
+            <button type="submit" class="procurar" onclick="resgatarFilmes()">Pesquisar</button>
+        </form>
     </div>
     <main id="main">
-        <div class="filmes">
-            <div class="capa-filme">
-                <img src="https://images.unsplash.com/photo-1542204165-65bf26472b9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="poster do filme">
-            </div>
-            <div class="info-filme">
-                <h3>Título do filme</h3>
-                <span class="verde">9.5</span>
-            </div>
-            <div class="resumo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vitae tempora perferendis blanditiis? Amet nesciunt in nam incidunt, distinctio eos, ipsum beatae vero eligendi laudantium deserunt odit temporibus, dolorum quia.
-            </div>
-        </div>
 
-        <div class="filmes">
-            <div class="capa-filme">
-                <img src="https://images.unsplash.com/photo-1542204165-65bf26472b9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="poster do filme">
-            </div>
-            <div class="info-filme">
-                <h3>Título do filme</h3>
-                <span class="verde">9.5</span>
-            </div>
-            <div class="resumo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vitae tempora perferendis blanditiis? Amet nesciunt in nam incidunt, distinctio eos, ipsum beatae vero eligendi laudantium deserunt odit temporibus, dolorum quia.
-            </div>
-        </div>
     </main>
-    <footer>
-        <div class="footer">
-        <p>Criado por Adriane Fagundes</p>
-        <img src="imagens/logoTMDB.svg" alt="TMDB">
-        </div>
-    </footer>
     <script src="buscafilmes.js"></script>
 </body>
 </html>

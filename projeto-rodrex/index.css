@@ -1,9 +1,98 @@
-main {
-    background-color: white;
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.336);
-    min-width: 320px;
-    max-width: 900px;
-    border-radius: 10px;
-    padding: 20px;
-    margin: auto;
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@400;700&family=Audiowide&family=Bowlby+One+SC&family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Chewy&family=Cinzel:wght@400;500;600;700;800;900&family=Creepster&family=Koulen&family=Pangolin&display=swap');
+
+:root {
+    --FonteRodrex: 'Bowlby One SC';
+    --FonteNav: 'Koulen';
+    --FonteTexto: 'Cabin';
+    --FonteTexto02: 'Abel';
+    --FonteInfantil: 'Pangolin';
+    --FonteTerror: 'Creepster';
+    --FonteComedia: 'Chewy';
+    --FonteSciFi: 'Audiowide';
+    --FonteFantasia: 'Amatic SC';
+    --FonteSuspense: 'Cinzel';
+
+    --Cor01-violeta: #634454;
+    --Cor02-vermelho: #480001;
+    --Cor03-azulclaro: #889A9A;
+    --Cor04-azulescuro: #42535D;
+    --Cor05-cinza: #1F2322;
+    --cor06-fundo: #948F89;
+
 }
+
+
+h2 {
+    margin: 1.5rem;
+    text-align: center;
+    color: #b7cece;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.445);
+} 
+
+main {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+
+.filmes {
+    width: 300px;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: 0.2px, 4px, 5px rgba(0, 0, 0, 0.1);
+    background-color: #889A9A;
+    position: relative;
+    overflow: hidden;
+}
+
+.capa-filme img {
+    width: 100%;
+}
+
+.info-filme {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem;
+}
+.info-filme h3 {
+    margin-top: 0;
+    font-family: var(--FonteNav);
+}
+.info-filme span {
+    background-color: #1F2322;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.info-filme span.verde {
+    color: #1f8b2e;
+}
+.info-filme span.laranja {
+    color: #b66420;
+}
+.info-filme span.vermelho {
+    color: #8a0909;
+}
+
+.resumo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #889a9ace;
+    color: #fff;
+    padding: 1rem;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: 0.3s ease-in;
+}
+
+.filmes:hover .resumo {
+    transform: translateY(0);
+    font-family: var(--FonteTexto02);
+}
+
