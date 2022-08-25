@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=DynaPuff&family=Quicksand:wght@300;400;700&display=swap');
+
+:root {
+    --nav-font: 'DynaPuff', tahoma, sans-serif;
+    --font: 'Quicksand', tahoma, sans-serif;
+    --font-title: 'Caveat', tahoma, sans-serif;
+
+    --color01: #BE746F;
+    --color02: #F7999B;
+    --color03: #F8E8D9;
+    --color04: ;
+}
+
+body {
+    background-color: var(--color03);
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+nav {
+    background-color: var(--color01);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    padding: 2rem;
+}
+nav img {
+    max-width: 140px;
+}
+a {
+    font-family: var(--nav-font);
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.288);
+    margin-right: 2rem;
+}  
+a:hover {
+    color: var(--color03);
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 9rem;
+}
+
+.search {
+    background-color: transparent;
+    padding: 0.5rem;
+    border: 1px solid var(--color02);
+    border-radius: 20px;
+    height: 1.5rem;
+    width: 100%;
+}
+.search::placeholder {
+    color:var(--color02);
+    font-family: var(--font);
+    font-size: 1rem;
+}
+.search:focus {
+    outline: 0;
+}
+
+.image {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 1rem;
+}
+.image img {
+    width: 100%;
+    max-height: 1200px;
+    border-radius: 3px;
+}
+
+footer {
+    background-color: var(--color01);
+    color: #fff;
+    font-family: var(--font);
+    text-align: center;
+    margin: 0px;
+    padding: 0.5rem;
+    width: 100%;
+    height: 7%;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
