@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Quicksand:wght@300;400;700&family=Shadows+Into+Light&display=swap');
+
+:root {
+    --nav-font: 'Amatic SC', tahoma, sans-serif;
+    --font: 'Quicksand', tahoma, sans-serif;
+    --font-title: 'Shadows Into Light', tahoma, sans-serif;
+
+    --color01: #003A6F;
+    --color02: #3C7DCA;
+    --color03: #d9e4f1;
+    --color04: #FFCB04;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color03);
+}
+
+header {
+    width: 100%
+}
+
+nav {
+    background-color: var(--color01);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    padding: 2rem;
+}
+nav img {
+    max-width: 160px;
+}
+a {
+    font-family: var(--nav-font);
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: var(--color04);
+    text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.288);
+    margin-right: 2rem;
+}  
+a:hover {
+    color: var(--color03);
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.searchbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbox input {
+    font-family: var(--font);
+    font-size: 1rem;
+    color: var(--color01);
+    border-radius: 20px 0 0 20px;
+    border: 0;
+    outline: none;
+    height: 36px;
+    padding: 4px 16px;
+    width: 50%;
+}
+
+.searchbox input::placeholder {
+    color:var(--color01);
+    font-family: var(--font);
+    font-size: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+.searchbox button {
+    border-radius: 0 20px 20px 0;
+    border: 0;
+    height: 36px;
+    padding: 4px 16px;
+}
+
+.pokemon-box {
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.pokemon-box img {
+    width: 100%;
+    height: auto;
+}
+.pokemon-box h1 {
+    font-family: var(--font-title);
+    font-size: 5rem;
+}
+.pokemon-box p {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: var(--color01);
+    color: #fff;
+    font-family: var(--font);
+    text-align: center;
+    margin: 0px;
+    padding: 0.5rem;
+    width: 100%;
+    height: 7%;
+    position:absolute;
+    bottom:0;
+    left:0;
+}

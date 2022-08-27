@@ -17,7 +17,7 @@ resgatarFilmes(api_key)
 function mostrarFilmes(filmes) {
     main.innerHTML = ''
     filmes.forEach((filme) => {
-        const {title, poster_path, vote_average, overview} = filme
+        const {title, poster_path, overview} = filme
         const elementoFilmes = document.createElement('div')
         elementoFilmes.classList.add('filmes')
         elementoFilmes.innerHTML = `
@@ -26,7 +26,6 @@ function mostrarFilmes(filmes) {
         </div>
         <div class='info-filme'>
             <h3>${title}</h3>
-            <span class='${corNota(vote_average)}'>${vote_average}</span>
             <div class='resumo'>${overview}</div>
         </div>
         `
