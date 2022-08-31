@@ -1,5 +1,5 @@
-const api_key = 'https://api.themoviedb.org/3/movie/popular?api_key=bfa52994c1d4057c319d2466a4493296';
-const api_key_busca = "https://api.themoviedb.org/3/search/movie?api_key=bfa52994c1d4057c319d2466a4493296&query=";
+import {api_key, api_key_busca} from '/modulo.js';
+
 const img_url = 'https://image.tmdb.org/t/p/w500';
 
 const form = document.getElementById('form')
